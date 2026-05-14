@@ -3,9 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Page</title>
+  <title>My Portfolio</title>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      color: #1f2937;
+      background: #f9fafb;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 0 20px;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+      font-size: 2rem;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: #4b5563;
+    }
+
+    section {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    footer {
+      text-align: center;
+      color: #6b7280;
+      padding: 16px 0 24px;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
+  <div class="container">
+    <header>
+      <h1>Jane Doe</h1>
+      <p class="subtitle">Web Developer | Building simple, useful websites</p>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a front-end developer who enjoys creating clean and accessible web
+        experiences. I focus on simple designs that are fast and easy to use.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Site:</strong> Personal website made with HTML and CSS.</li>
+        <li><strong>Task Tracker:</strong> Small app to track daily to-do items.</li>
+        <li><strong>Landing Page:</strong> Product landing page with responsive layout.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: jane.doe@example.com</p>
+      <p>LinkedIn: linkedin.com/in/janedoe</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Jane Doe. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 </html>
